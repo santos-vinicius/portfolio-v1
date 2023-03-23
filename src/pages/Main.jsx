@@ -38,7 +38,7 @@ function Main() {
           </p>
           <SocialLinks />
         </div>
-        <img src={Avatar} alt="" />
+        <img src={Avatar} alt="The person in the photo is wearing headphones and has short, curly hair. Their skin is brown and they are wearing a black t-shirt. " />
       </div>
     </StyledMain >
   )
