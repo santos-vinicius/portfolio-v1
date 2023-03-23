@@ -15,14 +15,23 @@ const StyledMain = styled.div`
   & .content {
     display: flex;
     flex-direction: column;
+    margin-right: 15px;
   }
 
   & h2 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  & h3 {
+    margin-bottom: 5px;
   }
 
   & p {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+  }
+
+  & img {
+    height: 180px;
   }
 `
 
@@ -34,7 +43,7 @@ function Main() {
           <h2>Vinicius Santos</h2>
           <h3>Hey there! &#10024;</h3>
           <p>
-            I am a self-taught software developer, designer and student who really likes music, animes and videogames.
+            I am a self-taught software developer, ui designer and student who really likes music, anime and videogames.
           </p>
           <SocialLinks />
         </div>

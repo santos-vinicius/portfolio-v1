@@ -11,7 +11,6 @@ const StyledNav = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 2rem;
   margin: 16px 20px;
   padding: 1rem;
