@@ -40,8 +40,7 @@ function Main() {
     <StyledMain>
       <div>
         <div className='content'>
-          <h2>Vinicius Santos</h2>
-          <h3>Hey there! &#10024;</h3>
+          <h2>Hey there! &#10024;</h2>
           <p>
             I am a self-taught software developer, ui designer and student who really likes music, anime and videogames.
           </p>
