@@ -33,6 +33,13 @@ const StyledMain = styled.div`
   & img {
     height: 180px;
   }
+
+  @media (max-width: 720px ) {
+   & img {
+    height: 120px;
+   }
+    
+  }
 `
 
 function Main() {
@@ -40,9 +47,9 @@ function Main() {
     <StyledMain>
       <div>
         <div className='content'>
-          <h2>Hey there! &#10024;</h2>
+          <h2>Olá! &#10024;</h2>
           <p>
-            I am a self-taught software developer, ui designer and student who really likes music, anime and videogames.
+            Eu sou Vinicius Santos, Desenvolvedor Frontend Jr e estudante. Amante de design e tecnologia construindo coisas pela internet.
           </p>
           <SocialLinks />
         </div>
