@@ -16,7 +16,11 @@ function Works() {
     <Container>
       <WorksTitle>
         <SectionTitle>Projetos</SectionTitle>
-        <GithubButton>Ver mais</GithubButton>
+        <GithubButton>
+          <a href="https://github.com/santos-vinicius" target="_blank" rel="noopener noreferrer">
+            Ver mais
+          </a>
+        </GithubButton>
       </WorksTitle>
       <div>
         <Card details={CardData} />

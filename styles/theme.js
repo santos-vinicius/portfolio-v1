@@ -9,7 +9,6 @@ export const Container = styled.div`
 export const GithubButton = styled.button`
   align-items: center;
   background-color: transparent;
-  color: rgba(185, 185, 185, 0.29);
   cursor: pointer;
   display: flex;
   font-size: 1rem;
@@ -20,7 +19,12 @@ export const GithubButton = styled.button`
   outline: 0;
   border: 0;
 
-  &:hover {
+  & a{
+    text-decoration: none;
+    color: rgba(185, 185, 185, 0.29);
+  }
+  
+  & a:hover {
     color:#D9D9D9;
   }
 
