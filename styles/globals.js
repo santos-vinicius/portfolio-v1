@@ -17,6 +17,10 @@ const GlobalStyle = createGlobalStyle`
   h1 { 
     color: #D9D9D9;
   }
+
+  ul {
+    list-style: none;
+  }
 `
 
 export default GlobalStyle;

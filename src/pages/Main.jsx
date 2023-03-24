@@ -10,6 +10,7 @@ const StyledMain = styled.div`
 
   & div {
     display: flex;
+    margin-bottom: 1rem;
   }
 
   & .content {
@@ -22,9 +23,9 @@ const StyledMain = styled.div`
     margin-bottom: 15px;
   }
 
-  & h3 {
+  /* & h3 {
     margin-bottom: 5px;
-  }
+  } */
 
   & p {
     margin-bottom: 5px;
@@ -38,7 +39,14 @@ const StyledMain = styled.div`
    & img {
     height: 120px;
    }
-    
+  }
+
+  &:after {
+    background-color: rgba(185, 185, 185, 0.1);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 100%;
   }
 `
 
