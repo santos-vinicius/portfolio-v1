@@ -31,7 +31,7 @@ const CardData = [
     gitUrl: "https://github.com/santos-vinicius/task-list",
     demoUrl: "https://task-list-pied-seven.vercel.app/",
     tags: ["React", "HTML", "CSS", "Vercel"],
-    description: "Lista de Tarefas criada para estudos iniciais em React"
+    description: "Lista de Tarefas criada para estudos iniciais em React."
   },
 ];
 
