@@ -10,6 +10,7 @@ const StyledAbout = styled.div`
   justify-content: center;
   
   & img {
+    max-width:50%;
     margin-top: 1rem;
   }
 `
