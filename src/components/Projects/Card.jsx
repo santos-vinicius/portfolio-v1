@@ -46,11 +46,13 @@ const CardContainer = styled.div`
     justify-content: center;
 
     & .project-title-section {
-      align-items: baseline;
+      align-items: center;
+      align-self: center;
       justify-content: center;
     }
 
     & .project-title {
+      margin-top: 0.5rem;
       margin-right: 0.5rem ;
       white-space: nowrap;
       font-size: 1.2rem;
