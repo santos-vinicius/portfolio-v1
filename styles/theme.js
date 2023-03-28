@@ -117,7 +117,9 @@ text-decoration: none;
  --border-width: 3px;
 }
 `
-
+export const PageTitle = styled.h1`
+  text-align: center;
+`
 
 export const SectionTitle = styled.h2`
 `
