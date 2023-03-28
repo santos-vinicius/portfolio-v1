@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { DemoButton } from '../../../styles/theme';
 
 const CardContainer = styled.div`
   background-color: #191818;
@@ -10,6 +10,11 @@ const CardContainer = styled.div`
   align-items: center;
   margin-bottom: 1rem;
   
+  & .project-title-section {
+    display: flex;
+    align-items: center;
+  }
+
   & .project-title {
     text-decoration: none;
     color: #D9D9D9;
@@ -45,6 +50,7 @@ const ImageContainer = styled.img`
   padding: 10px;
 `
 
+
 function Card(props) {
   return (
     <>
@@ -52,9 +58,14 @@ function Card(props) {
         <CardContainer key={index}>
           <ImageContainer src={value.icon} alt={value.alt} color={value.color} />
           <div>
-            <a href={value.gitUrl} className="project-title" target="_blank" rel="noopener noreferrer">
-              {value.title}
-            </a>
+            <div className='project-title-section'>
+              <a href={value.gitUrl} className="project-title" target="_blank" rel="noopener noreferrer">
+                {value.title}
+              </a>
+              <DemoButton href={value.demoUrl} target="_blank" rel="noopener noreferrer">
+                Demo
+              </DemoButton>
+            </div>
             <p>
               {value.description}
             </p>
