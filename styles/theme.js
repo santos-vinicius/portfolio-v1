@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   max-width: 48rem;
   padding: 0 2rem 0 2rem;
-  margin: 3rem auto 0 auto;
+  margin: 1.5rem auto 0 auto;
 `
 
 export const GithubButton = styled.button`

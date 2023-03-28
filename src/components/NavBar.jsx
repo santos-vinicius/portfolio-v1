@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-
+import { Container } from '../../styles/theme';
 
 const Gradient = styled.div`
     width: 100%;
@@ -14,8 +14,8 @@ const StyledNav = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 2rem;
-  margin: 16px;
-  padding: 1rem;
+  /* margin: px;
+  padding: 1rem; */
   
   & h1 {
     font-size: 22px;
@@ -72,17 +72,19 @@ function NavBar() {
   return (
     <>
       <Gradient />
-      <StyledNav>
-        <h1>
-          <span>{"<"}</span>
-          Vinicius
-          <span>{"/>"}</span>
-        </h1>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">Sobre</Link>
-        </nav>
-      </StyledNav>
+      <Container>
+        <StyledNav>
+          <h1>
+            <span>{"<"}</span>
+            Vinicius
+            <span>{"/>"}</span>
+          </h1>
+          <nav>
+            <Link to="/">Home</Link>
+            <Link to="/about">Sobre</Link>
+          </nav>
+        </StyledNav>
+      </Container>
     </>
   )
 }
