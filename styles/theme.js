@@ -46,5 +46,13 @@ export const GithubButton = styled.button`
 
 export const SectionTitle = styled.h2`
 `
-
+export const StyledPicture = styled.img`
+    border-radius: 10px;
+    height: 140px;
+    @media (max-width: 720px ) {
+      & img {
+        height: 120px;
+      }
+    }
+`
 

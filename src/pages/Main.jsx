@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Avatar from '../assets/avatar.png'
+import { StyledPicture } from '../../styles/theme.js'
+import ProfilePicture from '../assets/profilepicture.jpg'
 import SocialLinks from '../components/SocialLinks'
 
 const StyledMain = styled.div`
@@ -22,23 +23,9 @@ const StyledMain = styled.div`
   & h2 {
     margin-bottom: 15px;
   }
-
-  /* & h3 {
-    margin-bottom: 5px;
-  } */
-
+  
   & p {
     margin-bottom: 5px;
-  }
-
-  & img {
-    height: 180px;
-  }
-
-  @media (max-width: 720px ) {
-   & img {
-    height: 120px;
-   }
   }
 
   &:after {
@@ -49,6 +36,7 @@ const StyledMain = styled.div`
     width: 100%;
   }
 `
+
 
 function Main() {
   return (
@@ -61,7 +49,7 @@ function Main() {
           </p>
           <SocialLinks />
         </div>
-        <img src={Avatar} alt="The person in the photo is wearing headphones and has short, curly hair. Their skin is brown and they are wearing a black t-shirt. " />
+        <StyledPicture src={ProfilePicture} alt={`Vinicius Santos`} />
       </div>
     </StyledMain >
   )
