@@ -60,7 +60,7 @@ font-weight: 500;
 color: #fff;
 text-decoration: none;
 
-@media (max-width: 960px) {
+@media (max-width: 600px) {
   margin-top: 0.5rem;
   margin-left: 0;
 }
@@ -124,10 +124,5 @@ export const SectionTitle = styled.h2`
 export const StyledPicture = styled.img`
     border-radius: 10px;
     height: 140px;
-    @media (max-width: 720px ) {
-      & img {
-        display: none;
-      }
-    }
 `
 

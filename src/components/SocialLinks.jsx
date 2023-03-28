@@ -75,7 +75,7 @@ function SocialLinks() {
           </a>
         </li>
       </ul>
-    </StyledLinks>
+    </StyledLinks >
   )
 }
 

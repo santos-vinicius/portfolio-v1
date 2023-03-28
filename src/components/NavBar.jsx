@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+
 
 const Gradient = styled.div`
     width: 100%;
@@ -9,7 +11,7 @@ const Gradient = styled.div`
 
 const StyledNav = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   height: 2rem;
   margin: 16px;
@@ -23,19 +25,21 @@ const StyledNav = styled.div`
 
   & span {
     margin: 0 5px;
+    color:rgba(170, 170, 170, 0.534);
   }
 
-  & ul {
+  & nav {
     display: flex;
     align-items: center;
+    flex-direction: row;
     list-style: none;
   }
   
-  & ul:last-child {
+  & nav:last-child {
     padding-right: 0;
   }
 
-  & li {
+  & a {
     background: none;
     border: none;
     border-radius: 10px;
@@ -45,44 +49,26 @@ const StyledNav = styled.div`
     font-weight: bold;
     text-transform: capitalize;
     margin-right: 0;   
-  }
-
-  & li:hover {
-    background: rgba(170, 170, 170, 0.062);
-    transition: 0.5s;
-  }
- 
-  & a {
     text-decoration: none;
     color: #FAFAFA;
   }
 
-  @media (max-width: 960px) {
+  & a:hover {
+    background: rgba(170, 170, 170, 0.062);
+    transition: 0.5s;
+  }
+
+  @media (max-width: 370px) {
     justify-content: center;
 
     & h1 {
       font-size: 20px;
     }
-
-    
   }
 `
 
 
 function NavBar() {
-  const links = [
-    {
-      id: 1,
-      link: 'projetos',
-      href: '/'
-    },
-    {
-      id: 2,
-      link: 'sobre',
-      href: '/about'
-    }
-  ]
-
   return (
     <>
       <Gradient />
@@ -92,15 +78,10 @@ function NavBar() {
           Vinicius
           <span>{"/>"}</span>
         </h1>
-        <ul>
-          {links.map(({ id, link, href }) => (
-            <li key={id}>
-              <a href={href}>
-                {link}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/about">Sobre</Link>
+        </nav>
       </StyledNav>
     </>
   )

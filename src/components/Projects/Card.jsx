@@ -40,7 +40,7 @@ const CardContainer = styled.div`
     font-size: 12px;
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 600px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -79,7 +79,7 @@ const ImageContainer = styled.img`
   border-radius: 10px;
   padding: 10px;
 
-  @media (max-width: 960px) {
+  @media (max-width: 600px) {
     width: 70px;
     height: 70px;
     margin-right: 0;
