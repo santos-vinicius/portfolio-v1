@@ -35,6 +35,32 @@ const StyledMain = styled.div`
     height: 1px;
     width: 100%;
   }
+
+  @media (max-width: 720px ) {
+    margin: 2rem auto 0 auto;
+    
+    & div {
+      order: 2;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    & .img {
+      order: 1;
+      max-height: 60%;
+      max-width: 60%;
+      margin-bottom: 1rem;
+    }
+
+    & .content {
+      margin-right: 0;
+    }
+
+    & p {
+      text-align: justify;
+    }
+  }
 `
 
 
@@ -43,13 +69,13 @@ function Main() {
     <StyledMain>
       <div>
         <div className='content'>
-          <h2>Olá! &#10024;</h2>
+          <h2 className='title'>Olá! &#10024;</h2>
           <p>
             Eu sou Vinicius Santos, Desenvolvedor Frontend Jr e estudante. Amante de design e tecnologia construindo coisas pela internet.
           </p>
           <SocialLinks />
         </div>
-        <StyledPicture src={ProfilePicture} alt={`Vinicius Santos`} />
+        <StyledPicture className='img' src={ProfilePicture} alt={`Vinicius Santos`} />
       </div>
     </StyledMain >
   )

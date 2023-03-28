@@ -60,6 +60,11 @@ font-weight: 500;
 color: #fff;
 text-decoration: none;
 
+@media (max-width: 960px) {
+  margin-top: 0.5rem;
+  margin-left: 0;
+}
+
 
 &::after {
  --m-i: linear-gradient(#000, #000);
@@ -122,7 +127,7 @@ export const StyledPicture = styled.img`
     height: 140px;
     @media (max-width: 720px ) {
       & img {
-        height: 120px;
+        display: none;
       }
     }
 `

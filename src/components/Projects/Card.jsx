@@ -39,6 +39,34 @@ const CardContainer = styled.div`
     border-radius: 8px;
     font-size: 12px;
   }
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & .project-title-section {
+      align-items: baseline;
+      justify-content: center;
+    }
+
+    & .project-title {
+      margin-right: 0.5rem ;
+      white-space: nowrap;
+      font-size: 1.2rem;
+    }
+
+    & ul {
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    & li {
+      margin-top: 0.5rem;
+    }
+   
+  }
 `
 
 const ImageContainer = styled.img`
@@ -48,6 +76,13 @@ const ImageContainer = styled.img`
   margin-right: 1.5rem;
   border-radius: 10px;
   padding: 10px;
+
+  @media (max-width: 960px) {
+    width: 70px;
+    height: 70px;
+    margin-right: 0;
+    margin-bottom: 0.2rem;
+  }
 `
 
 
