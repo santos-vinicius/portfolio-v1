@@ -15,10 +15,6 @@ const StyledNav = styled.div`
   margin: 16px;
   padding: 1rem;
   
-  @media (max-width: 960px) {
-    justify-content: space-between;
-  }
-  
   & h1 {
     font-size: 22px;
     font-weight: bold;
@@ -61,7 +57,15 @@ const StyledNav = styled.div`
     color: #FAFAFA;
   }
 
-  
+  @media (max-width: 960px) {
+    justify-content: center;
+
+    & h1 {
+      font-size: 20px;
+    }
+
+    
+  }
 `
 
 
