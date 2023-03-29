@@ -14,7 +14,7 @@
     <img alt="Twitter: vinisnt" src="https://img.shields.io/twitter/follow/vinisnt.svg?style=flat-square&color=blue" />
   </a>
   <img alt="Vercel Status" src="https://img.shields.io/github/deployments/santos-vinicius/santosvinicius.dev/Production?label=vercel&logo=vercel&style=flat-square">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/santos-vinicius/portfolio?style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/santos-vinicius/santosvinicius.dev?style=flat-square">
 </p>
 
 ### 🏠 [Homepage](https://www.santosvinicius.dev/)
