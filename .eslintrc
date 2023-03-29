@@ -6,7 +6,8 @@
     "extends": [
         "plugin:react/recommended",
         "airbnb",
-        "prettier"
+        "prettier",
+        "plugin:prettier/recommended"
     ],
     "overrides": [],
     "parserOptions": {

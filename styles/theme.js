@@ -4,7 +4,7 @@ export const Container = styled.div`
   max-width: 48rem;
   padding: 0 2rem 0 2rem;
   margin: 1.5rem auto 0 auto;
-`
+`;
 
 export const GithubButton = styled.button`
   align-items: center;
@@ -42,7 +42,7 @@ export const GithubButton = styled.button`
   background-color: #D9D9D9;
   width: 3rem;
 }
-`
+`;
 
 export const DemoButton = styled.a`
  --border-radius: 5px;
@@ -116,15 +116,14 @@ text-decoration: none;
 &:active {
  --border-width: 3px;
 }
-`
+`;
 export const PageTitle = styled.h1`
   text-align: center;
-`
+`;
 
 export const SectionTitle = styled.h2`
-`
+`;
 export const StyledPicture = styled.img`
     border-radius: 10px;
     height: 140px;
-`
-
+`;

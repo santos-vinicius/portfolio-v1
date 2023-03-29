@@ -7,7 +7,11 @@
   "author": "Vinicius Santos - https://github.com/santos-vinicius",
   "homepage": "https://santosvinicius.dev",
   "license": "MIT",
-  "keywords": ["reactjs", "styled-components", "starter"],
+  "keywords": [
+    "reactjs",
+    "styled-components",
+    "starter"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -30,6 +34,7 @@
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.4",
