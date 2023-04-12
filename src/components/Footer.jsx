@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Container } from '../../styles/theme'
-//import { Container } from '../../styles/theme'
+import React from 'react';
+import styled from 'styled-components';
+import { Container } from '../../styles/theme';
+// import { Container } from '../../styles/theme'
 
 const StyledFooter = styled.footer` 
   margin: 2rem auto;
@@ -29,25 +29,26 @@ const StyledFooter = styled.footer`
     & a:hover{
       color: #D9D9D9;
     }
-`
+`;
 
 function Footer() {
-  const year = new Date().getFullYear()
+  const year = new Date().getFullYear();
   return (
-    <>
-      <Container>
-        <StyledFooter>
-          <div>
-            &copy; {year} | Design e Código por
-            <a href='https://github.com/santos-vinicius/portfolio' target="_blank" rel="noopener noreferrer">
-              Vinicius Santos
-            </a>
-          </div>
-        </StyledFooter>
-      </Container>
-
-    </>
-  )
+    <Container>
+      <StyledFooter>
+        <div>
+          &copy; {year} | Design e Código por
+          <a
+            href="https://github.com/santos-vinicius/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vinicius Santos
+          </a>
+        </div>
+      </StyledFooter>
+    </Container>
+  );
 }
 
-export default Footer
+export default Footer;

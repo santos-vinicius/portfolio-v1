@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { StyledPicture } from '../../styles/theme.js';
+import { StyledPicture } from '../../styles/theme';
 import ProfilePicture from '../assets/profilepicture.jpg';
 import SocialLinks from './SocialLinks';
 
@@ -70,9 +70,8 @@ function Main() {
         <div className="content">
           <h2 className="title">Olá! &#10024;</h2>
           <p>
-            Eu sou Vinicius Santos, Desenvolvedor Frontend Jr e
-            estudante. Amante de design e tecnologia construindo
-            coisas pela internet.
+            Eu sou Vinicius Santos, Desenvolvedor Frontend Jr e estudante.
+            Amante de design e tecnologia construindo coisas pela internet.
           </p>
           <SocialLinks />
         </div>

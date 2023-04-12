@@ -3,7 +3,7 @@ import {
   FaEnvelope,
   FaGithubAlt,
   FaLinkedinIn,
-  FaTwitter
+  FaTwitter,
 } from 'react-icons/fa';
 import styled from 'styled-components';
 
@@ -78,7 +78,7 @@ function SocialLinks() {
         </li>
         <li>
           <a
-            href="https://twitter.com/vinisnt"
+            href="https://twitter.com/devStrawHat"
             target="_blank"
             rel="noopener noreferrer"
           >
