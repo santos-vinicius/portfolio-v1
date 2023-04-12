@@ -38,7 +38,7 @@ npm run dev
 👤 **[Vinicius Santos](https://github.com/santos-vinicius)**
 
 * Website: [santosvinicius.dev](https://github.com/santos-vinicius)
-* Twitter: [@vinisnt](https://twitter.com/devStrawHat)
+* Twitter: [@devStrawHat](https://twitter.com/devStrawHat)
 * LinkedIn: [@santos-vinicius](https://linkedin.com/in/santos-vinicius)
 
 ### 💟 Show your support
