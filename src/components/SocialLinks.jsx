@@ -78,7 +78,7 @@ function SocialLinks() {
         </li>
         <li>
           <a
-            href="https://twitter.com/devStrawHat"
+            href="https://twitter.com/sv1nicius"
             target="_blank"
             rel="noopener noreferrer"
           >
