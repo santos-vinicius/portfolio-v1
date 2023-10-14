@@ -70,8 +70,8 @@ function Main() {
         <div className="content">
           <h2 className="title">Olá! &#10024;</h2>
           <p>
-            Eu sou Vinicius Santos, Desenvolvedor Frontend Jr e Designer. Amante
-            da tecnologia construindo coisas pela internet.
+            Eu sou Vinicius Santos, Desenvolvedor Frontend Jr e Designer.
+            Apaixonado por tecnologia construindo coisas pela internet.
           </p>
           <SocialLinks />
         </div>
