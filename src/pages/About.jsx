@@ -47,34 +47,31 @@ function Sobre() {
 
       <StyledAbout>
         <p>
-          Meu nome é Vinicius Santos, tenho 23 anos e sou um{' '}
-          <span>desenvolvedor fullstack</span> com foco em{' '}
-          <span>frontend</span>.
+          Meu nome é Vinicius Santos, tenho 24 anos, sou <span>designer</span> e{' '}
+          <span>desenvolvedor fullstack</span> com foco em <span>frontend</span>
+          .
         </p>
         <p>
-          Comecei a estudar desenvolvimento em 2021 e desde então
-          tenho adquirido bastante conhecimento nessa área, atualmente
-          estou cursando graduação em Análise e Desenvolvimento de
-          Sistemas.
+          Comecei a estudar desenvolvimento em 2021 e desde então tenho
+          adquirido bastante conhecimento nessa área, atualmente estou cursando
+          graduação em Análise e Desenvolvimento de Sistemas.
         </p>
         <p>
-          Minhas principais stacks são: <strong>React.js</strong>,{' '}
-          <strong>Next.Js</strong> e <strong>Node.Js</strong>. Mas
-          também tenho um bom conhecimento em outras tecnologias, como
-          Javascript, Typescript, StyledComponents, GIT, HTML, CSS,
-          MySQL, MongoDB, Metodologias Ágeis, e Figma.
+          Minhas principais stacks são: <strong>Javascript</strong>,{' '}
+          <strong>Pyhton</strong> e <strong>Node</strong>. Mas também tenho um
+          bom conhecimento em outras tecnologias, como React, Next, Typescript,
+          StyledComponents, GIT, HTML, CSS, MySQL, MongoDB, Metodologias Ágeis,
+          e Figma.
         </p>
         <p>
-          Além disso, tenho experiência com design, o que me ajuda a
-          criar interfaces mais amigáveis e visualmente atraentes para
-          os usuários. Estou sempre buscando me atualizar e aprender
-          novas tecnologias para melhorar minhas habilidades em
-          construir coisas na web.
+          Além disso, tenho experiência com design, o que me ajuda a criar
+          interfaces mais amigáveis e visualmente atraentes para os usuários.
+          Estou sempre buscando me atualizar e aprender novas tecnologias para
+          melhorar minhas habilidades em construir coisas na web.
         </p>
         <p>
-          Fora do trabalho, gosto muito de videogames e sou apaixonado
-          por música, você pode conferir mais sobre meus gostos
-          musicais no meu{' '}
+          Fora do trabalho, gosto muito de videogames e sou apaixonado por
+          música, você pode conferir mais sobre meus gostos musicais no meu{' '}
           <a
             href="https://www.last.fm/user/vxncvs"
             target="_blank"
@@ -85,9 +82,7 @@ function Sobre() {
           </a>
           .
         </p>
-        <p>
-          Tem alguma dúvida ou quer trocar uma ideia? É só chamar!
-        </p>
+        <p>Tem alguma dúvida ou quer trocar uma ideia? É só chamar!</p>
         <img
           src={Smile}
           alt="Luffy, protagonista do anime One Piece sorrindo"
