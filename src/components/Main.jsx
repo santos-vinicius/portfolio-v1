@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { StyledPicture } from '../../styles/theme';
-import ProfilePicture from '../assets/profilepicture.jpg';
+import ProfilePicture from '../assets/profilepicture.jpeg';
 import SocialLinks from './SocialLinks';
 
 const StyledMain = styled.div`
@@ -70,7 +70,8 @@ function Main() {
         <div className="content">
           <h2 className="title">Olá! &#10024;</h2>
           <p>
-            Eu sou Vinicius Santos, Desenvolvedor Frontend Jr e Designer.
+            Eu sou Vinicius Santos. <br />
+            Designer e estudante de Análise e Desenvolvimento de Sistemas
             Apaixonado por tecnologia construindo coisas pela internet.
           </p>
           <SocialLinks />

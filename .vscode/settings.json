@@ -2,7 +2,7 @@
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
       "editor.defaultFormatter": "espenp.prettier-vscode",
-      "source-organizeImports": true
+      "source-organizeImports": "explicit"
     }
   },
   "editor.formatOnSave": true,

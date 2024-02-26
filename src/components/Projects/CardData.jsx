@@ -19,7 +19,7 @@ const CardData = [
     color: '#EA4C89',
     title: 'Link in Bio',
     gitUrl: 'https://github.com/santos-vinicius/link-in-bio',
-    demoUrl: 'https://links.santosvinicius.dev/',
+    demoUrl: 'https://links-santosvinicius.vercel.app',
     tags: ['HTML', 'CSS'],
     description:
       'Página de Links personalizada que reúne meus links de contato.',
