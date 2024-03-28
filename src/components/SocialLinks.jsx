@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  FaEnvelope,
-  FaGithubAlt,
-  FaLinkedinIn,
-  FaTwitter,
-} from 'react-icons/fa';
+import { FaEnvelope, FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import styled from 'styled-components';
 
 const StyledLinks = styled.div`
@@ -29,11 +24,6 @@ const StyledLinks = styled.div`
     margin-right: 0;
   }
 
-`;
-const Twitter = styled(FaTwitter)`
-  font-size: 25px;
-  font-weight: bold;
-  color: #D9D9D9;
 `;
 
 const GitHub = styled(FaGithubAlt)`
@@ -78,16 +68,7 @@ function SocialLinks() {
         </li>
         <li>
           <a
-            href="https://twitter.com/sv1nicius"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Twitter />
-          </a>
-        </li>
-        <li>
-          <a
-            href="mailto:santosvinicius.dev@gmail.com"
+            href="mailto:santosviniv@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

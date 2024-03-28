@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "a portfolio website to show off some of my projects",
   "type": "module",
   "author": "Vinicius Santos - https://github.com/santos-vinicius",
-  "homepage": "https://santosvinicius.dev",
+  "homepage": "https://santosvinicius.com.br",
   "license": "MIT",
   "keywords": [
     "reactjs",
