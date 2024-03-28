@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { StyledPicture } from '../../styles/theme';
-import ProfilePicture from '../assets/profilepicture.jpeg';
+import ProfilePicture from './ProfilePicture';
 import SocialLinks from './SocialLinks';
 
 const StyledMain = styled.div`
@@ -27,6 +26,7 @@ const StyledMain = styled.div`
   & p {
     margin-bottom: 5px;
   }
+
 
   &:after {
     background-color: rgba(185, 185, 185, 0.1);
@@ -71,16 +71,13 @@ function Main() {
           <h2 className="title">Olá! &#10024;</h2>
           <p>
             Eu sou Vinicius Santos. <br />
-            Designer e estudante de Análise e Desenvolvimento de Sistemas
-            Apaixonado por tecnologia construindo coisas pela internet.
+            Estudante de Análise e Desenvolvimento de Sistemas na FATEC - Ferraz
+            de Vasconcelos. <strong>Curiosity-driven developer</strong>{' '}
+            apaixonado por tecnologia construindo coisas pela internet.
           </p>
           <SocialLinks />
         </div>
-        <StyledPicture
-          className="img"
-          src={ProfilePicture}
-          alt="Vinicius Santos"
-        />
+        <ProfilePicture />
       </div>
     </StyledMain>
   );

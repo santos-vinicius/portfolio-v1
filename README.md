@@ -10,14 +10,11 @@
   <a href="https://github.com/santos-vinicius/santosvinicius.dev/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-pink.svg?style=flat-square" />
   </a>
-  <a href="https://twitter.com/sv1nicius" target="_blank">
-    <img alt="Twitter: sv1nicius" src="https://img.shields.io/twitter/follow/sv1nicius.svg?style=flat-square&color=blue" />
-  </a>
   <img alt="Vercel Status" src="https://img.shields.io/github/deployments/santos-vinicius/santosvinicius.dev/Production?label=vercel&logo=vercel&style=flat-square">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/santos-vinicius/santosvinicius.dev?style=flat-square">
 </p>
 
-### 🏠 [Homepage](https://www.santosvinicius.dev/)
+### 🏠 [Homepage](https://www.santosvinicius.com.br/)
 
 ### ✨ [Demo](https://www.santosvinicius.dev/)
 
@@ -37,8 +34,7 @@ npm run dev
 
 👤 **[Vinicius Santos](https://github.com/santos-vinicius)**
 
-* Website: [santosvinicius.dev](https://github.com/santos-vinicius)
-* Twitter: [@sv1nicius](https://twitter.com/sv1nicius)
+* Website: [santosvinicius.com.br](https://www.santosvinicius.com.br/)
 * LinkedIn: [@santos-vinicius](https://linkedin.com/in/santos-vinicius)
 
 ### 💟 Show your support

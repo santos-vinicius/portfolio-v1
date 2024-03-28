@@ -7,7 +7,7 @@ const Gradient = styled.div`
     width: 100%;
     height: 7px;
     background: linear-gradient(90deg, #E39600 0%, #EA4C89 30.21%, #8F48EB 66.67%, #1DA1F2 100%);
-  `
+  `;
 
 const StyledNav = styled.div`
   display: flex;
@@ -65,8 +65,7 @@ const StyledNav = styled.div`
       font-size: 20px;
     }
   }
-`
-
+`;
 
 function NavBar() {
   return (
@@ -75,9 +74,9 @@ function NavBar() {
       <Container>
         <StyledNav>
           <h1>
-            <span>{"<"}</span>
+            <span>{'<'}</span>
             Vinicius
-            <span>{"/>"}</span>
+            <span>{'/>'}</span>
           </h1>
           <nav>
             <Link to="/">Home</Link>
@@ -86,7 +85,7 @@ function NavBar() {
         </StyledNav>
       </Container>
     </>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;
