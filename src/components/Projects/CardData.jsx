@@ -1,4 +1,4 @@
-import { indeciso, lf, link, tasklist } from '../../assets/projects';
+import { indeciso, lf, link, tasklist, githubfinder } from '../../assets/projects';
 
 // Projects card data
 
@@ -44,6 +44,16 @@ const CardData = [
     tags: ['React', 'HTML', 'CSS', 'Vercel'],
     description: 'Lista de Tarefas criada para estudos iniciais em React.',
   },
+  {
+    icon: githubfinder,
+    alt: 'Vetor com o logo do github ',
+    color: '#EA580C',
+    title: 'Github Profile Finder',
+    gitUrl: 'https://github.com/santos-vinicius/github-finder',
+    demoUrl: 'https://githubprofile-finder.vercel.app/',
+    tags: ['Next.js', 'Typescript', 'TailwindCSS', 'Vercel'],
+    description: 'Next app que busca e exibe informações do perfil solicitado no GitHub.',
+  }
 ];
 
 export default CardData;
