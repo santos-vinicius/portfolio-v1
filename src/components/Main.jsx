@@ -74,7 +74,6 @@ function Main() {
             Estudante de Análise e Desenvolvimento de Sistemas na FATEC - Ferraz
             de Vasconcelos. Estou sempre buscando aprimorar minhas habilidades por meio de novos desafios,{' '} 
             e atualmente estou estudando para me tornar um desenvolvedor full-stack.{' '}
-            apaixonado por tecnologia construindo coisas pela internet.
           </p>
           <SocialLinks />
         </div>
