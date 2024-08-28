@@ -72,8 +72,8 @@ function Main() {
           <p>
             Eu sou Vinicius Santos. <br />
             Estudante de Análise e Desenvolvimento de Sistemas na FATEC - Ferraz
-            de Vasconcelos. Estou sempre buscando aprimorar minhas habilidades por meio de novos desafios,{' '} 
-            e atualmente estou estudando para me tornar um desenvolvedor full-stack.{' '}
+            de Vasconcelos.{' '} 
+            Atualmente estou estudando para me tornar um desenvolvedor full-stack.{' '}
           </p>
           <SocialLinks />
         </div>
