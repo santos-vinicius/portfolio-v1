@@ -14,9 +14,9 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/santos-vinicius/santosvinicius.dev?style=flat-square">
 </p>
 
-### 🏠 [Homepage](https://www.santosvinicius.com.br/)
+### 🏠 [Homepage](https://v1.santosvinicius.com.br/)
 
-### ✨ [Demo](https://www.santosvinicius.dev/)
+### ✨ [Demo]([https://v1.santosvinicius/](https://portfolio-v1-one-rust.vercel.app))
 
 ### 📦 Install
 
